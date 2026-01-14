@@ -13,6 +13,7 @@ class RectangleAreaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_rectangle_area)
 
+
         val inputLength = findViewById<EditText>(R.id.inputLength)
         val inputWidth = findViewById<EditText>(R.id.inputWidth)
         val btnCalculate = findViewById<Button>(R.id.btnCalculate)

@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val btnOpenSecond = findViewById<Button>(R.id.btnOpenSecond)
         val btnOpenBrowser = findViewById<Button>(R.id.btnOpenBrowser)
         val btnCircleArea = findViewById<Button>(R.id.btnCircleArea)

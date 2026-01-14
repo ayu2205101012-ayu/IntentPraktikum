@@ -12,6 +12,7 @@ class CircleAreaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_circle_area)
 
+
         val inputRadius = findViewById<EditText>(R.id.inputRadius)
         val btnCalculate = findViewById<Button>(R.id.btnCalculate)
         val textResult = findViewById<TextView>(R.id.textResult)
